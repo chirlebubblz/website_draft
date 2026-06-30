@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
 :root {
-  /* Premium Dark Palette */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #121212;
-  --bg-glass: rgba(18, 18, 18, 0.7);
-  --bg-glass-light: rgba(255, 255, 255, 0.03);
+  /* Ranulph Branding Palette */
+  --bg-primary: #0B120E;
+  --bg-secondary: #131E18;
+  --bg-glass: rgba(11, 18, 14, 0.7);
+  --bg-glass-light: rgba(132, 196, 142, 0.05);
   
-  --text-primary: #f5f5f5;
-  --text-secondary: #a3a3a3;
-  --text-muted: #737373;
+  --text-primary: #F2F0EA;
+  --text-secondary: #B0B5B1;
+  --text-muted: #7A807C;
   
-  --accent: #d4af37; /* Metallic Gold */
-  --accent-hover: #f1c40f;
+  --accent: #84C48E;
+  --accent-hover: #4B734E;
   
-  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color: rgba(132, 196, 142, 0.15);
   
-  --font-sans: 'Inter', sans-serif;
-  --font-serif: 'Montserrat', sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'Cambria', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', monospace;
   
   --transition-fast: 0.2s ease;
   --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
